@@ -1,0 +1,144 @@
+Inteligence
+Skočit na navigaciSkočit na vyhledávání
+Tento článek je o schopnosti. O společenské třídě pojednává článek Inteligence (třída).
+
+Představa lidského vnímání rozděleného podle jednotlivých funkcí myšlení podle lékaře Roberta Fludda z roku 1619
+Inteligence (z lat. inter-legere, rozlišovat, poznávat, chápat) je dispozice pro myšlení, učení a adaptaci a projevuje se intelektovým výkonem. Spolu s osobností tvoří zásadní zdroj individuálních rozdílů. Přestože největším faktorem v inteligenci zvířat a člověka je počet synapsí v mozku[zdroj?], některé známky, které s inteligentními bytostmi běžně spojujeme jako učení či sebereflexe, mohou vykazovat i dnes existující počítače nebo organismy vůbec postrádající centrální nervovou soustavu.[1] Nakolik inteligence skutečně souvisí s učením, vědomím, symbolickým myšlením, sebeuvědomováním nebo algoritmickým systémem specifickým pro lidský mozek, je v rámci filozofie umělé inteligence ovšem stále diskutovaná otázka.
+
+V průběhu studia inteligence vznikala řada různých teorií, které lze rozdělit do čtyř hlavních směrů. Jedná se o psychometrické, kognitivní, sociální a fyziologické teorie inteligence.[2][3]
+
+
+Obsah
+1	Počátky výzkumu
+2	Sociologie inteligence
+3	Psychologie inteligence
+4	Teorie inteligence
+4.1	Psychometrické teorie
+4.1.1	Faktorová analýza v psychometrických teoriích inteligence
+4.2	Sociální teorie
+4.3	Další teorie
+5	Měření inteligence
+5.1	Kalkulace IQ
+5.1.1	Metoda výpočtu
+6	Odkazy
+6.1	Reference
+6.2	Související články
+6.3	Externí odkazy
+Počátky výzkumu
+První pokus o zjišťování intelektových schopností podnikl Francis Galton, bratranec Charlese Darwina. Vycházel z předpokladu, že inteligence je určena přesností smyslů a vnímání. Ačkoli se tato teze výzkumem nepotvrdila, vytvořil pro její účely korelační koeficient, který byl důležitý pro další výzkum (nejen) v oblasti psychologie.[2]
+
+Sociologie inteligence
+Přestože v historii existovala tendence vyčleňovat jednotlivé stupně inteligence ve společnosti do jasně daných skupin, veřejné průzkumy prokazují, že její rozložení více méně odpovídá normálnímu (Gaussovu) rozdělení.[4] Vlivem sociální bubliny se ale ve společnosti mohou přibližně 2 % jedinců s největším potenciálem vyčlenit do jakési menšiny, která by podle Moniky Stehlíkové měla být zastávána, tak jako každá přirozená společenská menšina. Pokud není výchova vhodně přizpůsobena, mohou se proto u některých dětí s vrozeně vyšší inteligencí rozvíjet sociální fóbie.
+
+Lidé se zvýšenou inteligencí se vyznačují především divergentním způsobem myšlení, vyšší mentální flexibilitou, snaží se řešit problémy do co nejširších důsledků, tíhnou k většímu perfekcionismu jak vůči sobě, tak vůči ostatním. Bývají často multipotenciální (renesanční lidé) a jsou schopni lépe uvažovat o věcech abstraktně, číst lépe nejen struktury, ale i metastruktury, komplexnější spojení mezi fakty.[5] S inteligencí je také spojena schopnost sebeovládání ve vlastní prospěch (plánování úkolů).[6][7]
+
+Psychologie inteligence
+Inteligence podle terapeutky Mgr. Moniky Stehlíkové, autorky knihy Život s vysokou inteligencí, předznamenává vyšší pravděpodobnost, že jedinec úspěšně dokončí vzdělání, nalezne práci, bude žít zdravěji a vytvoří si silnější mezilidské vztahy, pro jistou menšinu nadprůměrně inteligentních jedinců však naopak znamená riziko společenských problémů. Do značné míry jsou tyto ztížené podmínky způsobeny předsudky společnosti, která potenciální psychologické problémy nemusí vnímat jako vážné riziko a věří, že se s nimi inteligentní člověk vypořádá sám. Zejména ženy kolem padesátky (nebo v pubertě) mají tendenci známky své inteligence potlačovat jako společensky omezující a předpoklad úspěšného života ostatních lidí v nich mohou vyvolat pocit, že žijí život, do kterého byly dotlačeny, a snaží se přizpůsobovat se většinové společnosti navzdory své přirozené pozici.
+
+Zároveň inteligentnější lidé dokáží lépe vnímat své i cizí emoce. Na jednu stranu to znamená, že dokáží dobře odhadnout, co po nich druzí chtějí, na druhou stranu si své neúspěchy pamatují déle a obecně jim věnují větší mentální prostor. Pomoci může například metoda mindfulness: Člověk si vyčlení určitý čas pro reflexi vlastních dlouhodobých i momentálních emocí. Metoda údajně pomáhá lidem s vyšším intelektem své problémy nehromadit, ale naučit se s nimi spojenými emocemi pracovat. Aby nepodléhali tendenci přizpůsobit se, může pomoci studium psychologie inteligence, protože si totiž nemusí uvědomovat, že jejich odlišnost není poruchou.
+
+Ve společnosti obecně panuje dojem, že lidé s vyšší obecnou inteligencí mají slabší výkon emoční inteligence. Jde ale o klam vytvářený střídmějším užíváním silných emocí. Na rozdíl od emoční inteligence se dnes ale obecný intelekt považuje za převážně dědičný. Nelze zatím vyvozovat žádné jasné závěry, ale tento fakt je částečně zodpovědný za nejasné interpretace Flynnova efektu.
+
+Kromě lepší schopnosti číst emoce druhých a výraznějšího sebeuvědomění se ale lidé s vyšším intelektem vyznačují v rámci emoční inteligence větší schopností sebeovládání, což bylo potvrzeno např. při experimentu, ve kterém byly děti zavřeny samy v pokoji s marshmellow, jehož pokušení nepřekonaly zejména děti s nižším intelektem a nižšími perspektivami do budoucna. Emoční inteligence je spojena s úspěchem právě a hlavně proto, že lidé s vyšší inteligencí jsou schopni se lépe ovládat i v emoční oblasti, tj. (jinými slovy) takoví lidé lépe ovládajíc svoje emoce.[5]
+
+Teorie inteligence
+Psychometrické teorie
+Jedná se o nejstarší přístup, jehož cílem je měření a testování inteligence. První test intelektových schopností vytvořil francouzský psycholog Alfred Binet. Ten byl současníkem Francise Galtona, avšak tvrdil, že inteligence se více než v oblasti smyslového vnímání projevuje schopností vyřešit nějaký problém. Byl pověřen francouzskou vládou, aby z důvodu zavádění povinné školní docházky vytvořil test, který by byl schopen vydělit děti, pro které by povinná školní docházka v běžné škole vzhledem k jejich mentálnímu vývoji nebyla již přínosem. Dětem zadal řadu položek, které následně koreloval s jednotlivými věkovými skupinami. Binet předpokládal, že nadprůměrně inteligentní dítě splní úkol jako starší průměrné dítě a podprůměrně inteligentní dítě splní úkol jako mladší průměrně inteligentní dítě. Na základě toho bylo možné stanovit mentální věk testovaného.
+
+Binetův výzkum sledoval německý psycholog William Stern, který stanovil inteligenční kvocient (IQ) coby podíl mentálního a chronologického věku násobený stem. Lewis Terman ze Stanfordovy univerzity přizpůsobil Binetovy položky a převzal Sternův pojem IQ. Test se nazývá Stanfordova-Binetova škála a zahrnuje následující položky: verbální myšlení, kvantitativní myšlení, abstraktně-vizuální myšlení, krátkodobá paměť.[2]
+
+Faktorová analýza v psychometrických teoriích inteligence
+Do roku 1939 měřily všechny testy inteligence pouze jeden faktor. Následně začaly psychometrické teorie inteligence využívat k odhalování jednotlivých složek inteligence metody tzv. faktorové analýzy, s jejíž pomocí jsou vyhledávány souvislosti v různých oblastech intelektových výkonů. Dává odpověď na to, pomocí kolika faktorů lze vysvětlit výkon v jednotlivých disciplínách.[2][3]
+
+Metodu faktorové analýzy vytvořil Thurstone, který místo pohlížení na inteligenci jako na jednotnou schopnost na jejím základě stanovil sedm nezávislých intelektových schopností. Jedná se o verbální porozumění (schopnost chápat význam různých slov), induktivní usuzování (schopnost nalézt obecné pravidlo na základě jednotlivých případů), rychlost vnímání (schopnost rychle vnímat detaily a všímat si podobností a rozdílů), numerické schopnosti (schopnost provádět výpočty, řešit jednoduché matematické úlohy), verbální fluence (schopnost rychle uvažovat o slovech), asociační paměť (projevuje se především kvalitou vybavování dříve prezentovaných verbálních nebo zrakových podnětů) a prostorová vizualizace (schopnost vytvářet zrakové představy). Vytvořil také Test primárních duševních schopností.
+
+Vědci využívající metody faktorové analýzy se dále dělí podle toho, zda existuje, nebo neexistuje společný nadřazený faktor inteligence na „lampers“ (scelovači) a „splitters“. Podle scelovačů existuje jedna společná schopnost, která se projevuje v různých oblastech. Splitters připisují intelektový výkon sadě několika nezávislých kognitivních schopností, nezávislých na g.[3]
+
+Charles Spearman byl jedním z prvních psychologů, kteří se zabývali zejména analytickou složkou inteligence a jejího testování. Tato teorie ovlivnila mnoho dalších smýšlení o inteligenci; vyděluje jeden obecný faktor g (general), který považoval za „hlavní mentální energii“, a jeden nebo více specifických faktorů s, které zodpovídají za výkon jednotlivců v testech inteligence. Faktor g se pak projevuje v různých úlohách, zatímco faktor s měří specifické testy a subtesty. Faktor g je zahrnut v deduktivním usuzování a uvažování a je úzce spjat se schopností, rychlostí mentálních (duševních) dovedností představujících aspekt tvůrčí schopnosti spíše než aspekt reprodukční schopnosti. Kognitivní schopnosti spojené s obecnými mentálními schopnostmi by mohly zahrnovat dovednost popsání toho, jak dva koncepty spolu souvisí, nebo dovednost nalezení druhé myšlenky, která je spojena ke konceptu, který již byl navržen. Testy s vysokou g zátěží jsou komplexní a zahrnují úkoly, které obsahují logické myšlení a testování hypotéz. Testy s nižší g zátěží jsou méně komplexní a zahrnují úkoly týkající se především rozpoznávání, připomínání a rychlostí.[8]
+
+Cattelův a Hornův gf-gc model vyčleňuje dva intelektové faktory. Jedná se o fluidní (gf) a krystalickou (gc) inteligenci. Fluidní inteligence je vrozená a dosahuje vrcholu okolo 20 let, s věkem se zhoršuje. Zahrnuje rychlost myšlení, krátkodobou paměť či usuzování na neznámém tématu. Krystalická inteligence je naučená a představuje aplikaci znalostí a dovedností na známém materiálu. Ta se během dětství zlepšuje a stagnuje nebo se mírně zhoršuje v dospělosti. Úbytek fluidní inteligence může být kompenzován expertními schopnostmi. Ty se zlepšují praxí a dosahují vrcholu až po 40. roce věku.
+
+Sociální teorie
+
+Blokové schema inteligentního systému[9]
+Sociální teorie kladou důraz na užitečnost inteligence v daném sociálním prostředí. Podle Roberta Sternberga existují tři základní mentální procesy, které zdůrazňují veškeré inteligentní chování. Avšak co je vnímáno v jedné kultuře jako inteligentní, nemusí zdaleka znamenat inteligentní v kultuře jiné. Základní mentální procesy se v různých kulturách neliší. Třemi základními mentálními procesy jsou:[10][11]
+
+Exekutivní – je takový proces, který je úzce spjat s realizováním a děláním.
+Legislativní – funkce je spojena s plánováním, představováním, tvořením a formulováním.
+Justiční – proces je spojen s porovnáváním, vyhodnocováním a usuzováním.
+Podle Sternberga inteligence nemůže být měřena testy, ale měla by být měřena a definována v rámci toho, jak se chováme v každodenním životě. Tímto Sternberg odkazuje k tomu, co nazývá úspěšnou inteligencí. Lidé, kteří jsou úspěšně inteligentní, jsou schopni definovat a dosáhnout vlastních idejí úspěchu ve své vlastní kultuře. Ti, kteří jsou úspěšně inteligentní, jsou schopni se adaptovat a přizpůsobit se svému prostředí tak, aby to co nejlépe uspokojovalo jejich potřeby. Protože jejich inteligence je vysoce závislá na kultuře, ve které se nacházejí. To znamená, že inteligentní jednotlivec v jedné kultuře nemusí být považován za inteligentního v kultuře jiné.
+
+Jsou zde tři základní komponenty úspěšné inteligence, což je hlavní součástí Triarchické nebo také někdy zvané Triangulární či Trojúhelníkové teorie:
+
+Analytická inteligence – Je inteligence, která odkazuje na schopnost řešení problémů, efektivního zpracování informací a kompletování akademických úloh. Lidé s vysokým analytickým IQ skládají testy inteligence velice zdatně, stejně tak jako různé zkoušky. Takoví lidé jsou velice schopni kritického a analytického myšlení.
+Kreativní inteligence – Díky této inteligenci jsme schopni využít již existujících zkušeností, vědomostí a schopností k úspěšnému a efektivnímu zvládání nových a neobvyklých situací. Lidé s vysokou kreativní inteligencí mají výborný pohled na věc, představivost a jsou schopni formulovat nové nápady a myšlenky. Tato inteligence je většinou v testech přehlížena.
+Praktická inteligence – Umožňuje nám využívat vědomostí a zkušeností získaných v minulosti k adaptování, formování a přetváření našeho prostředí. Ti, jenž mají vysokou praktickou inteligenci, jsou schopni identifikovat faktory, kterých je zapotřebí k dosažení úspěchu, a jsou dobří v přizpůsobování se či měnění vlastního prostředí za účelem dosažení sebou stanovených cílů.
+Podle Sternbergovy triarchické teorie představuje inteligence získávání a konsolidaci sady schopností potřebných pro mistrovství v jedné nebo více doménách. Zahrnuje tři subteorie: komponentovou, kontextuální a zkušenostní.
+
+Stephen Ceci zdůrazňuje roli kontextu při intelektovém výkonu. Podle něj existují mnohočetné kognitivní potenciály, které mají biologickou podstatu, ale jejich uplatnění je závislé na ekologickém prostoru jedince. Vysoká inteligence se pak odvíjí od vědomostní základny v určité oblasti. (Testy Spectrum assessment system a Bristing assessment for teaching).
+
+V roce 1983 Howard Gardner navrhl teorii, jejímž cílem bylo rozšíření tradiční definice inteligence. Věděl, že koncept inteligence,tak jak byla definována předtím, nezachytil pravdivě a úplně veškeré způsoby, odvětví a obory, ve kterých může člověk vynikat. Gardner argumentoval proti názoru, že lidská inteligence je jednotná, s tím, že je naopak mnohočetná, složená z mnoha různých druhů inteligencí, které jsou součástí nezávislého systému v mozku. Gardner kladl menší důraz na vysvětlování výsledků testů inteligence než na rozsah lidských schopností, které existují v drtivé většině různých kultur. Gardner došel k závěrům díky mnoha různým zdrojům a důkazům, které mu pomohly v upřesnění počtu inteligencí v této teorii. Jedním z příkladů je studie, kterou udělal na osoby s poškozením mozku, které ztratily jednu schopnost, jako například prostorové myšlení, ale dokázaly si zachovat dovednosti jiné, jako například jazykové nebo motorické funkce. Věřil, že když dvě rozdílné dovednosti dokáží operovat bez vzájemné závislosti, tak to potvrzuje jeho tezi o mnohačetné inteligenci.[12]
+
+Typy inteligence podle Howarda Gardnera:[8][13]
+
+Jazykově-verbální inteligence – Schopnost učit se jazyky a užití vlastních jazykových schopností efektivně k dosažení různých cílů. Jednoduše řečeno je to dovednost mluveného, psaného projevu a efektivního používání slov a jazyka. Osoby, které mají tuto dovednost značně rozvinutu, jsou často spisovatelé, básníci, právníci, učitelé atp.
+Logicko-matematická inteligence – Je to schopnost analyzovat problémy logicky. Zahrnuje schopnosti jako řešení matematických operací (sčítání, odčítání…) a řešení složitých matematických úloh a problémů. Vysoká inteligence tohoto typu pomáhá například v rychlém posouzení toho, co se vyplatí, nebo v odhadu toho, jaká politická strana má největší šanci získat moc.
+Vizuálně-prostorová inteligence – Vztahuje se na schopnost vnímání a rozlišování barev, tvarů, velikostí a vzdáleností mezi předměty. Osoby nadané v tomto směru jsou schopny rozeznat a zapamatovat si různé obrazce, mají trojrozměrnou představivost a výbornou orientaci v prostoru. Nejčastějšími obory lidí s vysokou inteligencí tohoto typu jsou v oblasti architektury, stavebnictví, kartografie, geografie, řízení lodí či letadel.
+Zvukově-hudební inteligence – Tato inteligence představuje schopnosti tvořit, vnímat a interpretovat hudbu. Hudebně nadaní lidé jsou úspěšní ve skládání, zpívání, hraní, dirigování a tanci, hudba je důležitou součástí jejich života a nezbytnou kulisou každodenních aktivit. Tato inteligence vychází z několika mozkových center – jedno reguluje hudební tvorbu, druhé interpretaci, třetí rozlišování melodií a tónin a čtvrté rytmus.
+Tělesně-pohybová inteligence – Odkazuje na schopnost jedince použít mentálních dovedností ke koordinaci tělesných pohybů. Je nazývána také jako motorická a veškeré tělesné pohyby, ať už snazší, či obtížnější, jsou vykonávány díky této inteligenci. Atleti, sportovci, tanečníci, chirurgové a další většinou vykazují vysokou úroveň této inteligence.
+Společenská neboli interpersonální inteligence – Určuje schopnost vycházet s ostatními lidmi. Zahrnuje jedincovu dovednost pochopit záměry, motivace a touhy druhých. Člověk s vysokou společenskou inteligencí se velice dobře socializuje, snadno získává druhé na svou stranu a je velice schopný v manipulaci ostatními osobami. Lidé, kteří disponují vysokou úrovní interpersonální inteligence, pracují většinou v politice, marketingu, právničině, psychologii atp.
+Vnitřní neboli intrapersonální inteligence – Slouží k porozumění sebe samému. Díky této inteligenci jsme schopni se naučit, které situace v nás vyvolávají různé emoce, pocity a myšlenky. Vysoce rozvinutá forma této inteligence nám umožňuje zvládnout stresové situace a stát se vyrovnanějším člověkem.
+Přírodní inteligence – Touto inteligencí jsou obdařeni biologové, zoologové, botanici, ekologové i obyčejní milovníci přírody, rostlin a živočichů. Její výše ovlivňuje to, zda vyhazujeme plast do smíšeného odpadu, nebo ne, zda kupujeme výrobky z pravé kožešiny, nebo testované na zvířatech[zdroj?].
+Další teorie
+David Perkins udělal mnoho výzkumných studií jak na měření IQ, tak na různé studijní programy navržených za účelem zvýšení IQ. Prezentuje tři základní komponenty, resp. dimenze IQ:[14][15]
+
+Nervová inteligence – odkazuje na efektivnost a preciznost jedincova nervového systému.
+Zkušenostní inteligence – je druh inteligence, který zahrnuje vědomosti a zkušenosti v různých oblastech daného jedince.
+Reflektivní inteligence – se vztahuje k jedincově schopnosti vytvářet strategie na řešení problémů, učení a blížící se testy. Jejími součástmi jsou vytrvalost, systematizace a představivost.
+Kognitivní vědy či informatika definují inteligentní systém obecně, bez nutného vztahu k živým organismům. Podle nich musí inteligentní systém být schopen reagovat na měnící se podmínky prostředí, tj.:
+
+zajistit si vlastní schopnost přežití
+zajistit si vlastní schopnost reprodukce
+být cílově orientovaný a mít schopnost dosažení tohoto cíle
+být schopen učit se
+Měření inteligence
+Podrobnější informace naleznete v článcích Inteligenční test a Inteligenční kvocient.
+Měření inteligence je stejně problematické jako definice inteligence samotná.[16] Nejjednodušší model navrhl Charles Spearman (1927), podle kterého existuje obecná rozumová schopnost, jediná veličina, jejíž hodnota určuje schopnost řešit veškeré typy problémů. Při sestavování IQ testu se nejčastěji používají tzv. Ravenovy matice[zdroj?]. Z výzkumů nejspíše (oproti konkurenčním modelům) vyplývá to, co od IQ testu očekáváme, výsledná hodnota zahrnuje jak jazykové, tak matematické a kognitivní schopnosti.[17]
+
+Pravým opakem této teorie je model inteligence J. P. Guilforda (1967), který ji rozčleňuje do tří kategorií podle sféry činnosti mozku: Vnímání obsahu, zpracování informací a vyvozování závislostí.
+
+Mentální operace	Obsah	Produkty
+Hodnocení	Obrazový	Prvky
+Odvození	Symbolický	Třídy
+Kreativita	Sémantický	Vztahy
+Paměť	Chování	Systémy
+Poznání		Transformace
+Implikace
+Vzájemnou kombinací všech hodnocených faktorů dostaneme celkem 120 samostatných složek inteligence. Podle kritiků to svědčí o neúspěchu testu určit obecné vlastnosti inteligence.
+
+S podobným, ale jednodušším modelem přišel H. J. Eysenck, který již vycházel z konkrétních dat z proběhlých testů inteligence:[17]
+
+Mentální operace	Druhy testovaných úloh	Kvalita
+Vnímání	Verbální	Výkonnost
+Paměť	Numerické	Rychlost
+Vyvozování	Prostorové	
+Některé modely přistupují k problému i z hlediska obecné funkce centrálního nervového systému. Podle Gardnera by měla například obecná inteligence zahrnovat inteligenci jazykově-verbální, hudební, logicko-matematickou, tělesně-pohybovou, vizuálně-prostorovou, intrapersonální, interpersonální a přírodní inteligenci.[18] Gardnerova teorie však nemá reálné vědecké základy, není založena na faktech a nepopisuje dobře skutečné fungování lidského mozku a mysli[19].
+
+Psychologové se dnes shodnou na tom, že jako kompletně jiné vlastnosti musíme minimálně oddělovat inteligenci abstraktní, sociální a emoční[zdroj?]. Současné testy inteligence se snaží měřit hodnotu inteligence abstraktní, obecně kognitivních schopností.
+
+
+Ukázka testu inteligence
+Kalkulace IQ
+Metoda výpočtu
+Inteligenční kvocient v dnešním pojetí popisuje roku 1912 William Stern [štern] jako procentuální poměr oproti vrstevníkům:
+
+{\displaystyle IQ={\frac {Mentalni(Vek)}{Chronologicky(Vek)}}*100}IQ={\frac  {Mentalni(Vek)}{Chronologicky(Vek)}}*100[20]
+Úlohy jsou v testu rozčleněny do obtížností podle toho, jak staří jedinci jsou v průměru schopni je zvládnout. Mentální věk vyjadřuje, jak náročné úlohy byl testovaný schopen adekvátně řešit.
+Chronologický věk vyjadřuje pak skutečný věk testovaného jedince.
+Pokud by tedy desetileté dítě vyřešilo nanejvýš úlohy, které dokáže vyřešit i většina desetiletých, pak je poměr věků roven 1 a po vynásobení 100 zjistíme, že jeho IQ je rovno 100. Kdyby desetileté dítě zvládalo úlohy, které odpovídají mentálnímu věku dětí mezi 12. a 13. rokem, pak jeho IQ bude mít hodnotu 125.
+
+Později bylo průměrné IQ stanoveno na hodnotu 100. Po matematické stránce byla provedena normalizace rozložení N (100,15).[3]
+
+Sternův výpočet však nelze používat u dospělých, protože ačkoli chronologický věk roste lineárně s časem, mentální věk nikoli a do hry vstupují další faktory, např. životní zkušenost. V současnosti se preferuje odvozený kvocient označovaný jako deviační nebo odchylkové IQ. Úroveň rozumových schopností jedince se posuzuje vzhledem k průměrnému IQ v populaci. Asi 68 % populace má hodnotu IQ mezi 85-115 (tj. průměr +/- směrodatná odchylka). Vysoce nadprůměrné IQ (vyšší než 130) má naopak jen 2,5 % populace, totéž platí i u podprůměrného IQ nižšího než 70.
+
+V současnosti (2011) se při testování inteligence používají různé metody. Vedle Ravenových progresivních matic, které „měří“ zejména analytickou složku inteligence, jsou to zejména Wechslerovy testy inteligence (nyní hlavně WISC-III, WAISR nebo stále používaný PDW), Stanford-Binet Intelligence Scale (v současnosti Stanford-Binet 5) nebo v Česku příliš nerozšířené Schwartzovy barevné čtverce. Tyto testy vykazují výrazně vyšší validitu nežli testy volně dostupné na internetu - ty jsou často neprofesionální a neposkytují interpretovatelné výsledky.
