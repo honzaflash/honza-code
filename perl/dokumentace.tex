@@ -1,0 +1,63 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{enumitem}
+
+\setlist[description]{labelindent=25pt,style=multiline,
+                      leftmargin=2.5cm} % popis přepínačů
+\def\cmd{\fontfamily{lmtt}\selectfont\textbf} % styl pro příkazy
+
+\title{Dokumentace}
+\author{Jan Rychlý}
+\date{20. 11. 2020}
+
+\begin{document}
+
+\maketitle
+\section*{úvod}
+
+\indent
+\par Klicova\_slova je skript na extrahování klíčových slov
+z textových souborů.
+To dělá podle četnosti výskytu slov. Spočítá výskyt všech slov,
+některé ignoruje a pak vypíše pouze ty nejfrekventovanější.
+V základním běhu bez přepínačů zpracuje text na standardním vstupu
+a pak vypíše slova s četností 95. percentilu a vyšší v pořadí od
+nejfrekventovanějších po ty méně frekventovaná na standardní výstup.
+Zároveň při tom ignoruje slova o délce menší než 3 a
+jakákoliv slova ze souboru ./ignore\_list.txt pokud soubor existuje.
+\par Pomocí přepínačů je možné určit minimální délku slov, jejich
+minimální četnost, konkrétní percentil nebo danou četnost u každého
+slova zobrazit. Lze tedy i např. získat četnost každého slova v
+textu.
+\par Je vhodné zadat konkrétní percentil podle rozsahu souboru.
+
+\section*{spuštění}
+synopse: \newline
+{\cmd {./klicova\_slova.pl [-h] [-lN] [-cN] [-pN] [-v] [FILEPATH]}
+} \newline
+V základu skript čte ze standardního vstupu. Pokud zadáme
+{\cmd FILEPATH} skript se pokusí
+otevřít a číst soubor na této adrese.
+
+\section*{přepínače}
+\begin{description}
+    \item[{\cmd {-lN}}] Zobraz puze slova o délce {\cmd N} nebo více
+    \item[{\cmd {-cN}}] Zobraz pouze slova s {\cmd N} nebo více výskyty
+    \item[{\cmd {-pN}}] Zobraz pouze slova s výskytem {\cmd N} 
+            percentilu nebo více (přebíjí možnost {\cmd {-cN}}) 
+    \item[{\cmd {-v}}] Zobraz u každého slova počet výskytů
+    \item[{\cmd {-h}}] Vypiš zprávu o použití. 
+\end{description}
+      
+\section*{ignorovací slovník}
+\indent
+\par Skript se pokaždé pokouší načíst slovník slov, které by měl
+ignorovat, ze souboru ./ignore\_list.txt. Přesné shody s těmito
+slovy se poté budou při analýze přeskakovat.
+\par Každé slovo musí být v souboru samo na vlastním řádku
+bez bílých znaků. 
+
+\end{document}
