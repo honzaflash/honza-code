@@ -1,0 +1,74 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+
+\def\cmd{\fontfamily{lmtt}\selectfont\textbf} % styl pro příkazy
+
+\author{Jan Rychlý}
+\date{20. 11. 2020}
+
+\begin{document}
+
+\section*{Popis řešení}
+
+\subsection*{Shrnutí}
+\indent
+\par Během řešení jsem používal Perl poprvé,
+takže jsem musel mnoho vyhledávat. A i proto jsem se rozhodl
+problém hledání klíčových slov řešit jednoduše možná by se dalo
+říci až primitivně.
+\par Vycházím z toho, že klíčoá slova by pravděpodobně měla
+patřit mezi ta nejvíce používaná. Daný text tedy postupně procházím
+po slovech a pomocí asociativního seznamu počítám výskyty
+jednotlivých slov.
+\par Nakonec iteruji seznamem klíčů (tedy slov) seřazených právě
+podle jejich četnosti (tedy hodnoty pod klíčem v asoc. seznamu)
+a vypíšu pouze několik nejfrekventovanějších.
+\par V průběhu implementace jsem se rozhodl umožnit některé
+parametry nastavit pomocí přepínačů, i když to nebylo v zadání.
+Skript je tak mnohem užitečnější.
+
+\subsection*{Detailnější popis}
+\indent
+\par Především na začátku skriptu zparsuji argumenty a nastavím
+si podle toho proměnné - subprocedura {\cmd {parse\_args}}. Určitě
+existují funkce, které zpracují argumenty podle standardu a které
+by mi dovolili zpracovat sofistikovanější syntax přepínačů, ale
+já jsem pro takovýto jednoduchý skript zůstal u "ručního"
+regex porovnávání a klasické rovnosti.
+
+\par Poté si načtu slovník slov, které chci ignorovat v
+{\cmd{load\_ignores}}. To dělám tak, že se pokusím otevřít
+určený soubor a pokud neexistuje tak se vrátím a nechám
+{\cmd {\%ignore}} hash prázdný. Pokud se mi podaří soubor otevřít, 
+tak z každéh řádku odstraním newline znak a použiji ho jako klíč
+v {\cmd {\%ignore}}.
+
+\par Následně přichází o něco méně elegantní větvení. Nepodařilo se
+mi totiž zjistit jak file handly uložit do proměnné, a tak dochází
+k nepěkné duplikaci kódu. Pokud totiž byla předána cesta k souboru,
+nejdřív soubor otevřu (v režimu s UTF8 kódováním), pokud ne tak
+pouze nastavím standardnímu vstupu UTF8 kódování, a pak v obou
+větvích iteruji po řádcích, které rozděluji pomocí {\cmd split}
+na slova. Pokud je slovo kratší než požadovaná délka (daná buď 
+přepínačem nebo výchozí hodnotou), tak jej přeskočím. Jinak
+slovo v malých písmenech použiji jako klíč a zvýším hodnotu.
+
+\par Dále pokud byl použit přepínač {\cmd {-pN}} nebo
+nebyl pužit přepínač {\cmd {-cN}} najdu
+{\cmd N}. respektive výchozí 95. percentil výskytů a
+tuto hodnotu použiji jako hranici výskytu.
+
+\par Pak už jenom vypíši na standardní výstup všechna slova
+- tedy klíče z {\cmd {\%key\_words}} - v pořadí od nejčetnějších
+po méně četná, přičemž přeskakuji slova, která jsou
+klíčem v {\cmd {\%ignore}}, a skončím vypisovat, pokud narazím
+na slovo s menší hodnotou než je hranice.
+
+\subsection*{Reflexe a komentář}
+
+
+\end{document}

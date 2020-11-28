@@ -76,7 +76,8 @@ if (not defined $cut_off or defined $percentile) {
 # output of keywords
 binmode(STDOUT, ":utf8"); # console encoding
 for my $k (sort { $key_words{$b} <=> $key_words{$a} } keys(%key_words)) {
-    next if ($key_words{$k} < $cut_off or exists $ignore{$k});
+    last if ($key_words{$k} < $cut_off);
+    next if (exists $ignore{$k});
     print "$k";
     print ": $key_words{$k}" if ($verbose);
     print "\n";
@@ -91,7 +92,7 @@ exit 0;
 # prints help message and exits
 sub print_help {
     print $usage . "\n" .
-    "if no FILEPATH is given it will read from STDIN"
+    "if no FILEPATH is given it will read from STDIN" .
     "It analyzes a text file and atempts to find its keywords,\n" .
     "which are then printed out from the most to the least significant.\n" .
     "It ignores words from $ignore_path if it exits and\n" .
