@@ -8,11 +8,11 @@
 \def\cmd{\fontfamily{lmtt}\selectfont\textbf} % styl pro příkazy
 
 \author{Jan Rychlý}
-\date{20. 11. 2020}
+\date{25. 11. 2020}
 
 \begin{document}
 
-\section*{Popis řešení}
+\section*{\huge Popis řešení}
 
 \subsection*{Shrnutí}
 \indent
@@ -20,13 +20,16 @@
 takže jsem musel mnoho vyhledávat. A i proto jsem se rozhodl
 problém hledání klíčových slov řešit jednoduše možná by se dalo
 říci až primitivně.
+
 \par Vycházím z toho, že klíčoá slova by pravděpodobně měla
 patřit mezi ta nejvíce používaná. Daný text tedy postupně procházím
 po slovech a pomocí asociativního seznamu počítám výskyty
 jednotlivých slov.
+
 \par Nakonec iteruji seznamem klíčů (tedy slov) seřazených právě
 podle jejich četnosti (tedy hodnoty pod klíčem v asoc. seznamu)
 a vypíšu pouze několik nejfrekventovanějších.
+
 \par V průběhu implementace jsem se rozhodl umožnit některé
 parametry nastavit pomocí přepínačů, i když to nebylo v zadání.
 Skript je tak mnohem užitečnější.
@@ -69,6 +72,36 @@ klíčem v {\cmd {\%ignore}}, a skončím vypisovat, pokud narazím
 na slovo s menší hodnotou než je hranice.
 
 \subsection*{Reflexe a komentář}
+\indent
+\par Největším nedostatkem je, že slova jako předložky a spojky se často
+v textu opakují více než klíčová slova relevantní pro předmět textu.
+To by jistě nemělo množinu podobných dokumentů zmenšit, ale potenciálně
+by se tak mohly  zdát podobné dokumenty, které si nijak příbuzné
+nejsou. Tento problém částečně řeší možnost přidat soubor se slovy,
+která nechceme brát jako klíčová, ale pak samozřejmě záleží na
+jeho rozsáhlosti.
 
+\par Pak také úkol stěžuje skloňování slov, které v řešení ignoruji.
+Jistě by se dalo pracovat detailněji s kořeny slov, ale jejich
+algoritmycké hledání by bylo nesnadné.
+
+\par Zároveň jsem skript testoval pouze pro krátké a středně
+dlouhé texty, kde samozřejmě čím delší text je tím je větší šance
+že mezi nejfrekventovanějšími slovy budou skutečně taková,
+která mají nějaký vztah k předmětu textu.
+
+\par Nebyl jsem si jistý přirozeným jazykem, který jsem měl použít.
+Zadání požaduje, aby se soubor jmenoval česky a i uživatelský
+manuál jsem napsal v češtině. Jsem ale více zvyklý psát názvy a
+komentáře v angličtině a obecně je dle mého angličtina vhodnějším
+jazykem v kontextu kódu. A jelikož jsem už v kódu měl angličtinu
+použil jsem ji i pro výstup při chybových hláškách a přepínače help.
+Uznávám tedy tuto jazykovou dualitu a jistě bych neměl problém
+psát kód česky nebo naopak manuál napsat v angličtině.
+
+\par Na závěr bych zmínil pár možných rozšíření: přepínač na vypnutí
+ignorovacího souboru, přepínač na zadání vlastní cesty k ignorovacímu
+souboru a možnost ztotožnit více tavrů jednoho slova podle přidaného
+slovníku přípon.
 
 \end{document}
