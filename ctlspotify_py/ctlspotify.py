@@ -3,8 +3,10 @@
 import sys
 from os import path
 from time import time
+
 import argparse
 import json
+
 import urllib.parse as urlp
 from base64 import b64encode
 from pip._vendor.requests import request, post
@@ -15,19 +17,9 @@ CLIENT_INFO_PATH = '.spotify_client_info'
 
 
 
-def handle_unok_responses(response):
-    sys.stderr.write('something went wrong\n')
-    try:
-        sys.stderr.write(str(response.json()))
-    except json.decoder.JSONDecodeError:
-        sys.stderr.write('error ' + str(response.status_code) + ' ~ empty body ~')
-    sys.stderr.write('\n')
-    sys.exit(1)
-
-
 # sends an authorized http request to the spotify api 
 def spotify_request(
-    method, endpoint, token, expected_code, data=None, json=None
+    method, endpoint, token, expected_code, data=None, json=None, silent=False
 ):
     response = request(method,
                    'https://api.spotify.com/v1/' + endpoint,
@@ -38,32 +30,50 @@ def spotify_request(
                    },
                    data=data, json=json)
     if response.status_code == expected_code:
-        return response
+        return (response, None)
     
-    # this exits the program
-    handle_unok_responses(response)
+    if not silent:
+        sys.stderr.write('something went wrong\n')
+        try:
+            sys.stderr.write(response.json()['error']['message'] + '\n')
+            sys.stderr.write('reason: ' + response.json()['error']['reason'])
+        except json.decoder.JSONDecodeError:
+            sys.stderr.write('error ' + str(response.status_code) + ' ~ empty body ~')
+        except KeyError:
+            sys.stderr.write(str(response.json()))
+        sys.stderr.write('\n')
+    
+    return (response, response.status_code)
 
 
 def show_status(args, token):
-    rs_dev = spotify_request('get', 'me/player/devices', token, 200).json()
+    resp, err = spotify_request('get', 'me/player/devices', token, 200)
+    if err: sys.exit(1)
+    
+    rs_dev = resp.json()
     
     active_dev = list(filter(lambda dev: dev['is_active'], rs_dev['devices']))
-    if len(active_dev) < 1:
-        print('no active devices')
-        print('available device: ', end='')
-        for device in rs_dev['devices']:
-            print(f"  name: {device['name']}; type: {device['type']};")
-        return
-    
-    if args.devices:
+
+    if args.devices or len(active_dev) < 1:
+        print('there are no active devices at the moment')
         print('all available devices:')
         for device in rs_dev['devices']:
-            state = 'active' if device['is_active'] else 'not active'
-            print(f"  name: {device['name']}; type: {device['type']}" +
-                  f"; volume: {device['volume_percent']} - {state}")
-            print(f"    id: {device['id']}")
+            state = '> ' if device['is_active'] else '  '
+            print(f"{state}name: {device['name']}, type: {device['type']}", end='')
+            if args.devices:
+                print(f", volume: {device['volume_percent']}")
+                print(f"    id: {device['id']}", end='')
+            print()
     
-    rs_player = spotify_request('get', 'me/player', token, 200).json()
+    if len(active_dev) < 1:
+        # no active device exists
+        return
+    
+    # some active device exists
+    resp, err = spotify_request('get', 'me/player', token, 200)
+    if err: sys.exit(1)
+    
+    rs_player = resp.json()
     
     item = rs_player['item']
     if not item:
@@ -75,29 +85,99 @@ def show_status(args, token):
     if not rs_player['is_playing']: print(' (paused)', end='')
     if args.devices: print(f" on {rs_player['device']['name']}", end='')
     print()
-    
 
-def next_track(args, token):
-    spotify_request('post', 'me/player/next', token, 204)
-    print('⏩ skipped')
+
+def play(args, token):
+
+    if not args.query:
+        resume(args, token)
+        return
+    
+    # TODO
+    sys.stderr.write('this is WIP\n')
+    print(args)
+    query = " ".join(args.query)
+    if args.query_is_formatted:
+        artist_song = ":".split(query)
+        artist = artist_song[0].strip()
+        songname = artist_song[1].strip()
+    print('maybe playing \'' + query + '\'')
 
 
 def resume(args, token):
-    spotify_request('put', 'me/player/play', token, 204)
+    resp, err = spotify_request('put', 'me/player/play', token, 204, silent=True)
+    if not err:
+        print('▶ resumed')
+        return
+
+    elif err != 404 or resp.json()['error']['reason'] != 'NO_ACTIVE_DEVICE':
+        sys.exit(1)
+
+    # try to transfer playback if error 404 'no active device'
+    resp_dev, err_dev = spotify_request('get', 'me/player/devices', token, 200)
+    if err_dev: sys.exit(1) # getting info about devices failed
+    
+    devices = resp_dev.json()['devices']
+    transfer_to_dev_id = None
+    
+    # determin which device to transfer to
+    if args.device:
+        fl = filter(lambda dev: dev['name'].lower() == args.device.lower(), devices)
+        if len(list(fl)) < 1:
+            sys.stderr.write('no available device with that name\n')
+            return
+        transfer_to_dev_id = list(fl)[0]['id'] # the name ~pobably~ is unique
+
+    elif len(devices) == 1:
+        transfer_to_dev_id = devices[0]['id']
+
+    else:
+        print('Available devices:')
+        i = 1
+        for device in devices:
+            print(f"{i})  name: {device['name']}, type: {device['type']}")
+            i += 1
+        print('enter a device number: ', end='')
+        while True:
+            try:
+                d = int(input()) - 1
+                transfer_to_dev_id = devices[d]['id']
+                break
+            except (ValueError, IndexError):
+                print('not a valid option, try again: ', end='')
+                continue
+    
+    body = {"device_ids": [transfer_to_dev_id],
+            "play": True}
+    _, err = spotify_request('put', 'me/player', token, 204, json=body)
+    if err: sys.exit(1)
+    # playback has been resumed on a previously inactive device
     print('▶ resumed')
+    
 
 def transfer(args, token):
+    # TODO
     sys.stderr.write('this is WIP, wild things may happen :P\n')
     device_id = None
     start_playing = False
     body = {"devices_ids": device_id,
             "play": start_playing}
-    spotify_request('put', 'me/player', token, 204, json=body)
+    _, err = spotify_request('put', 'me/player', token, 204, json=body)
+    if err: sys.exit(1)
 
 
 def pause(args, token):
-    spotify_request('put', 'me/player/pause', token, 204)
+    _, err = spotify_request('put', 'me/player/pause', token, 204)
+    if err: sys.exit(1)
+    
     print('⏸ paused')
+
+
+def next_track(args, token):
+    _, err = spotify_request('post', 'me/player/next', token, 204)
+    if err: sys.exit(1)
+    
+    print('⏩ skipped')
 
 
 # reads client id and secret from 'CLIENT_INFO_PATH'
@@ -220,18 +300,36 @@ def main(argv):
         description='Controll your Spotify playback through CLI',
         prog='ctlspotify')
     parser.add_argument('-v', '--verbose', action='store_true')
-    parser.add_argument('-d', '--devices', action='store_true')
+    parser.add_argument('-d', '--devices', action='store_true',
+                        help="show details about available devices")
     parser.set_defaults(func=show_status)
 
     subparsers = parser.add_subparsers()
     
-    resume_parser = subparsers.add_parser('resume', aliases=['play'])
+    play_parser = subparsers.add_parser('play',
+                                        help="start playing first search result for QUERY")
+    play_parser.add_argument('query', nargs='*', default=None,
+                             help="if omitted it acts the same as \'resume\'")
+    play_parser.add_argument('-a', '--artist',
+                             help="specify artist of the track")
+    play_parser.add_argument('-f', '--formatted', action='store_true', dest='querry_is_formatted',
+                             help="QEURY will be interpreted as <artist> : <song_name>")
+    play_parser.add_argument('-d', '--device', '--dev',
+                             help="specify device to start playing on")
+    play_parser.set_defaults(func=play)
+    
+    resume_parser = subparsers.add_parser('resume',
+                                          help="resumes the playback")
+    resume_parser.add_argument('-d', '--device', '--dev',
+                               help="choose which device will be activatedif no device is active ")
     resume_parser.set_defaults(func=resume)
     
-    pause_parser = subparsers.add_parser('pause')
+    pause_parser = subparsers.add_parser('pause',
+                                         help="pauses the playback")
     pause_parser.set_defaults(func=pause)
     
-    next_parser = subparsers.add_parser('next', aliases=['skip', 'n'])
+    next_parser = subparsers.add_parser('next', aliases=['skip', 'n'],
+                                        help="skipps the current track")
     next_parser.set_defaults(func=next_track)
 
     args = parser.parse_args(argv)
