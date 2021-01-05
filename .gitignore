@@ -1,6 +1,16 @@
+*.vscode*
+
+*__pycache__*
+
 *.log
 *.fls
 *.synctex.gz
 *.synctex(busy)
 *.fdb_latexmk
 *.aux
+
+### CtlSpotify project ### ignores
+# js version of the project
+ctlspotify/*
+# where the app stores sensitive data (ids, secrets, tokens - yes it's suboptimal but it's just for fun ^.^)
+*.spotify*
