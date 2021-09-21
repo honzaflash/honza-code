@@ -1,0 +1,2 @@
+# where the app stores sensitive data (ids, secrets, tokens - yes it's suboptimal but it's just for fun ^.^)
+.env
